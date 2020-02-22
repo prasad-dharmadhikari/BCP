@@ -1,5 +1,6 @@
 #!/bin/bash -x
 #Shell program to take day number as input and print the day of week accordingly
+
 read -p "Enter a number:" day
 case $day in
 	1) echo "Sunday"
